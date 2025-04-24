@@ -70,7 +70,7 @@
             /* Smaller font size for the dates */
             float: right;
             /* Right-align the dates */
-            margin-top: 20px;
+            margin-top: 10px;
             /* Optional: Adjust to make the alignment more precise */
         }
     </style>
@@ -89,75 +89,81 @@
     </header>
     <main>
         <section>
+            <h2>About Me</h2>
+            <p>
+                Senior Software Engineer with
+                <script>document.write(new Date().getFullYear() - 2017)</script>+ years of experience building scalable
+                backend systems and cloud-native solutions. Proven impact at Microsoft and Google, leading critical
+                infrastructure optimizations and contributing to open-source ML projects. Extensive experience crafting
+                high-performance applications with Java and Kotlin. Skilled in architecting and deploying resilient
+                systems on Microsoft Azure and Google Cloud Platform. Passionate about clean code, teaching, and
+                building reliable, future-ready software.
+            </p>
+        </section>
+
+        <section>
             <h2>Top Skills</h2>
             <ul>
                 <li>Languages & Paradigms: Java, Kotlin, Python, Bash, OOP, Functional Programming</li>
                 <li>Frameworks & Libraries: Spring Boot, Spring Security, Hibernate, OpenAPI, JUnit, Mockito</li>
-                <li>Cloud & DevOps: Microsoft Azure, Google Cloud Platform (GCP), AWS, Terraform, Docker, GitHub Actions, CI/CD</li>
-                <li>Architecture & Systems: Microservices, RESTful APIs, Event-driven Architecture, Pub/Sub (RabbitMQ, Google Pub/Sub, Azure Service Bus)</li>
+                <li>Cloud & DevOps: Microsoft Azure, Google Cloud Platform (GCP), AWS, Terraform, Docker, GitHub
+                    Actions, CI/CD</li>
+                <li>Architecture & Systems: Microservices, RESTful APIs, Event-driven Architecture, Pub/Sub (RabbitMQ,
+                    Google Pub/Sub, Azure Service Bus)</li>
                 <li>Databases: PostgreSQL, Oracle, MySQL, MongoDB, Elasticsearch</li>
                 <li>Tools & Practices: IntelliJ IDEA, Maven, Gradle, Agile/Scrum, TDD, BDD</li>
             </ul>
         </section>
-        
 
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li><strong>Languages & Paradigms:</strong> Java, Kotlin, Python, Bash, OOP, Functional Programming</li>
-                <li><strong>Frameworks & Libraries:</strong> Spring Boot, Spring Security, Hibernate, OpenAPI, JUnit,
-                    Mockito</li>
-                <li><strong>Cloud & DevOps:</strong> Microsoft Azure, Google Cloud Platform (GCP), AWS, Terraform,
-                    Docker, GitHub Actions, CI/CD</li>
-                <li><strong>Architecture & Systems:</strong> Microservices, RESTful APIs, Event-driven Architecture,
-                    Pub/Sub (RabbitMQ, Google Pub/Sub, Azure Service Bus)</li>
-                <li><strong>Databases:</strong> PostgreSQL, Oracle, MySQL, MongoDB, Elasticsearch</li>
-                <li><strong>Tools & Practices:</strong> IntelliJ IDEA, Maven, Gradle, Agile/Scrum, TDD, BDD</li>
-            </ul>
-        </section>
 
 
         <section>
             <h2>Experience</h2>
 
 
-            <p>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/asachi.png" alt="Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Teaching Assistant – Gheorghe Asachi Technical University of Iași
+                    Teaching Assistant
                 </strong>
-                <span class="date">Oct 2024 – Present</span>
+                <span style="font-size: smaller; margin-left: 40px;">Gheorghe Asachi Technical University of Iași</span>
+                <span class="date" style="align-self: flex-end;">Oct 2024 – Present</span>
             </p>
+
             <ul>
                 <li>Delivered hands-on instruction in OpenMP, MPI, and distributed algorithms for parallel
                     programming courses.</li>
                 <li>Taught concurrency, synchronization, and leader election techniques in distributed systems.</li>
             </ul>
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/google.png" alt="Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Senior Software Developer (Open Source) – Google
+                    Senior Software Developer (Open Source)
                 </strong>
-                <span class="date">Oct 2024 – Feb 2025</span>
+                <span style="font-size: smaller; margin-left: 45px;">Google</span>
+                <span class="date" style="align-self: flex-end;">Oct 2024 – Feb 2025</span>
             </p>
+
             <ul>
                 <li>Contributed to cloud security best practices for constrained workloads on GKE.</li>
                 <li>Integrated Federated Compute Server for on-device federated learning across Android clients.
                 </li>
             </ul>
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/msft.svg" alt="Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Software Engineer – Microsoft
+                    Software Engineer
                 </strong>
-                <span class="date">May 2022 – Oct 2024</span>
+                <span style="font-size: smaller; margin-left: 45px;">Microsoft</span>
+                <span class="date" style="align-self: flex-end;">May 2022 – Oct 2024</span>
             </p>
-
             <p><em>Project: Microsoft Teams</em></p>
             <ul>
                 <li>Designed and implemented Smart Test Selection for Microsoft Teams, reducing test execution time by
@@ -171,13 +177,15 @@
                     improving delivery speed.</li>
             </ul>
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/sda.png" alt="Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Senior Java Trainer – Software Development Academy
+                    Senior Java Trainer
                 </strong>
-                <span class="date">Oct 2021 – May 2022</span>
+                <span style="font-size: smaller; margin-left: 45px;">Software Development Academy</span>
+                <span class="date" style="align-self: flex-end;">Oct 2021 – May 2022</span>
             </p>
             <ul>
                 <li>Taught core and advanced Java, including OOP, Functional Programming, Concurrency, and I/O
@@ -190,14 +198,17 @@
                 <li>Mentored and guided dozens of students into successful careers as professional Java developers.</li>
             </ul>
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/telus.svg" alt="Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Software Engineer – TELUS
+                    Software Engineer
                 </strong>
-                <span class="date">May 2021 – May 2022</span>
+                <span style="font-size: smaller; margin-left: 45px;">TELUS</span>
+                <span class="date" style="align-self: flex-end;">May 2021 – May 2022</span>
             </p>
+
 
             <p><em>Extended Warranty System</em></p>
             <ul>
@@ -233,13 +244,15 @@
 
 
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/conti.svg" alt="Conti Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Software Engineer – Continental
-                </strong><br />
-                <span class="date">Jul 2019 – Dec 2020</span>
+                    Software Engineer
+                </strong>
+                <span style="font-size: smaller; margin-left: 45px;">Continental</span>
+                <span class="date" style="align-self: flex-end;">Jul 2019 – Dec 2020</span>
             </p>
             <p><em>Transforming Urban Traffic with AI-Powered Smart Intersections</em></p>
             <p>
@@ -259,14 +272,17 @@
             </ul>
 
 
-            <p>
+            <br>
+            <p style="display: flex; flex-direction: column; align-items: flex-start;">
                 <strong>
                     <img src="public/upwork.svg" alt="Upwork Logo"
                         style="height: 30px; vertical-align: middle; margin-right: 10px;" />
-                    Software Engineer – Upwork
-                </strong><br />
-                <span class="date">Jan 2017 – Jul 2019</span>
+                    Software Engineer
+                </strong>
+                <span style="font-size: smaller; margin-left: 45px;">Upwork</span>
+                <span class="date" style="align-self: flex-end;">Jan 2017 – Jul 2019</span>
             </p>
+            
             <p><em>I helped customers around the world to improve or build their software products.</em></p>
 
             <p>Applications which I developed:</p>
@@ -289,6 +305,7 @@
         </section>
 
 
+        <br>
         <section>
             <h2>Education</h2>
             <p>PhD in Artificial Intelligence (ongoing) — Gheorghe Asachi Technical University of Iași</p>
@@ -305,13 +322,6 @@
         </section>
 
     </main>
-    <footer>
-        &copy; <span id="year"></span> DanyM Solutions Ltd
-    </footer>
-
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
 </body>
 
 </html>
